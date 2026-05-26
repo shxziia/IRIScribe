@@ -1,11 +1,11 @@
 # IRIScribe
 
-# Objective
+## Objective
 [Brief Objective]
 
 This IRIScribe projects objectives is to analyze network traffic data and detect potential cyber attacks. This system aims to classify threats, assign severity levels, map them to MITRE ATT&CK framework, and present the results in an interactive dashboard. This is to simulate real world security monitoring and incident response.
 
-# Skills Gained
+## Skills Gained
 
 - Cybersecurity fundamentals - SOC workflow
 - Network traffic analysis
@@ -15,7 +15,7 @@ This IRIScribe projects objectives is to analyze network traffic data and detect
 - MITRE ATT&CK framework mapping
 - Risk score and incident classification
 
-# Tools Used
+## Tools Used
 
 - Python - used to build the whole project
 - Pandas - used to read and process the data
@@ -23,7 +23,7 @@ This IRIScribe projects objectives is to analyze network traffic data and detect
 - Plotly - used to make charts and graphs
 - CICIDS2017 dataset - used as a data source for deteckting attacks
 
-  ### How It Works
+### How It Works
 
   1. Load the CICIDS2017 network traffic dataset. This contains real world network flow data which is used to simulate cybersecurity environments.
   2. Cleans and prepares the dataset which is used for analysis by handling and structuring raw network traffic features.
@@ -34,9 +34,17 @@ This IRIScribe projects objectives is to analyze network traffic data and detect
   7. Generates structures incident reports for each detected threat.
   8. Displays all results on interactive SOC style Streamlit dashboard.
  
-  ### How To Run
+### How To Run
 
-  Run these command in the terminal:
+Run these command in the terminal:
+pip install -r requirements.txt
+streamlit run src/app.py
 
+### CICIDS2017 Dataset
+
+Download CICIDS2017 Dataset from:
+https://www.unb.ca/cic/datasets/ids-2017.html
+
+Due to the datasets large size, the dataset is not included in this repository.
   pip install -r requirments.txt
   streamlit run src/app.py
