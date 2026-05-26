@@ -48,3 +48,29 @@ https://www.unb.ca/cic/datasets/ids-2017.html
 Due to the datasets large size, the dataset is not included in this repository.
   pip install -r requirments.txt
   streamlit run src/app.py
+
+### SOC Dashboard Overview
+
+Main SOC Dashboard:
+
+<img width="1885" height="737" alt="image" src="https://github.com/user-attachments/assets/15999125-fd81-46e8-9930-4f4107baeae8" />
+
+The main dashboard provides a high level overview of the detected network activity within the CICIDS2017 dataset. The dashboard displays key security metrics such as detected incidents, severity distribution, critical and high deverity alerts, and the average risk score. This represents the primary monitoring interface which is used to simulate a SOC environment where analysts can quickly assess the overall security status of the system.
+
+Attack Type Distribution:
+
+<img width="711" height="657" alt="image" src="https://github.com/user-attachments/assets/b9a6fc85-7ff2-4159-9f24-e1877d87b33a" />
+
+This charts is a visualisation of the distribution of detected attack types within the dataset. This chart highlights which type of network attacks are most frequent such as brute force or scanning based intrusion. This chart helps to understand the dominant threat patterns present in the network traffic data.
+
+Risk Score Distribution:
+
+<img width="690" height="662" alt="image" src="https://github.com/user-attachments/assets/75b45bff-65f7-4142-8ed1-544a70f5b56c" />
+
+This chart is used to display the distribution of risks crossed across all the detected incidents. The chart helps classify how severe each incident is and it shows how many low medium or high risk threats exist in the system. This helps prioritise Security events based on their potential impact. 
+
+Incident Table:
+
+<img width="1392" height="312" alt="image" src="https://github.com/user-attachments/assets/d7eb1b7a-76c6-465b-962e-1cb82856bf0d" />
+
+The incident table provides a detailed breakdown of all the security incidents. Each incident includes the incident ID, attack type, number of occurrences, severity level, risk score, and MITRE ATT&CK classification. The incident table is used for deeper investigation and it simulates how SOC analysts would review and triage security incidents in real world environments. 
