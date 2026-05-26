@@ -1,0 +1,10 @@
+# IRIScribe SOC Incident Analysis System
+
+# Core data processing
+pandas>=2.0.0
+
+# Web dashboard (SOC interface)
+streamlit>=1.30.0
+
+# Data visualization (charts & graphs)
+plotly>=5.0.0
