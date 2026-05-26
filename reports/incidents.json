@@ -1,0 +1,18 @@
+[
+    {
+        "incident_id": "IR-001",
+        "type": "FTP-Patator",
+        "count": 7938,
+        "severity": "HIGH",
+        "risk_score": 75,
+        "mitre": "T1110 - Brute Force"
+    },
+    {
+        "incident_id": "IR-002",
+        "type": "SSH-Patator",
+        "count": 5897,
+        "severity": "HIGH",
+        "risk_score": 75,
+        "mitre": "T1110 - Brute Force"
+    }
+]
